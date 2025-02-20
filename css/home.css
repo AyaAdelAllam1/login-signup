@@ -1,0 +1,32 @@
+body {
+    background-image: url(../image/R.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+.text-secondary, a.text-secondary {
+    color: rgb(255, 255, 255) !important;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    transform: translateY(80px);
+    border-radius: 25px;
+}
+#logBtn{
+    background-color: rgba(0, 0, 57, 0.9) !important;
+    color: rgb(226, 226, 226);
+}
+#logBtn:hover{
+    background-color: rgba(1, 1, 40, 0.9) !important;
+    color: rgb(255, 255, 255);
+}
+::placeholder{
+    color: rgb(151, 148, 148) !important;
+}
+
+i{
+    color: rgb(186, 147, 234);
+    
+}
